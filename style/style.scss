@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    .wrapper {
+        display: flex;
+        padding: 20px;
+        border: 6px solid lightblue;
+        border-radius: 0 0 50px 0;
+        background-color: lightpink;
+        .wrap-btns {
+            display: flex;
+            flex-direction: column;
+            .btn {
+                position: relative;
+                margin: 5px 0;
+                padding: 10px;
+                border: 3px solid darkviolet;
+                border-radius: 5px;
+                font-size: 18px;
+                background-color: lightblue;
+                transition: .3s;
+                cursor: pointer;
+                &:hover {
+                    border-color: black;
+                    color: white;
+                    background-color: darkviolet;
+                }
+            }
+        }
+        .wrap-matrix {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-left: 20px;
+            padding: 10px;
+            border: 3px solid darkviolet;
+            border-radius: 5px;
+            background-color: lightblue;
+            .wrap-matrix-content {
+                width: fit-content;
+                margin-bottom: 25px;
+                padding: 10px;
+                border: 3px solid darkviolet;
+                border-radius: 5px;
+                font-size: 30px;
+                background-color: lightpink;
+            }
+            .wrap-matrix-sum {
+                padding: 5px;
+                border: 3px solid darkviolet;
+                border-radius: 5px;
+                font-size: 20px;
+                background-color: lightpink;
+            }
+        }
+    }
+}

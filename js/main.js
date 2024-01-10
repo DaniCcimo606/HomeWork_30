@@ -66,7 +66,7 @@ myBtns[1].addEventListener('click', function () {
 		}
 	}
 	console.log(matrix);
-	wrapMatrixSum.innerHTML += `Сумма главной диагонали: ${sum}`;
+	wrapMatrixSum.innerHTML += `Сумма побочной диагонали: ${sum}`;
 });
 myBtns[2].addEventListener('click', function () {
 	wrapMatrixSum.innerHTML = '';
@@ -79,7 +79,7 @@ myBtns[2].addEventListener('click', function () {
 		}
 	}
 	console.log(matrix);
-	wrapMatrixSum.innerHTML += `Сумма главной диагонали: ${sum}`;
+	wrapMatrixSum.innerHTML += `Сумма половины матрицы без главной диагонали сверху справа: ${sum}`;
 });
 myBtns[3].addEventListener('click', function () {
 	wrapMatrixSum.innerHTML = '';
@@ -92,7 +92,7 @@ myBtns[3].addEventListener('click', function () {
 		}
 	}
 	console.log(matrix);
-	wrapMatrixSum.innerHTML += `Сумма главной диагонали: ${sum}`;
+	wrapMatrixSum.innerHTML += `Сумма половины матрицы с главной диагональю сверху справа: ${sum}`;
 });
 myBtns[4].addEventListener('click', function () {
 	wrapMatrixSum.innerHTML = '';
@@ -105,7 +105,7 @@ myBtns[4].addEventListener('click', function () {
 		}
 	}
 	console.log(matrix);
-	wrapMatrixSum.innerHTML += `Сумма главной диагонали: ${sum}`;
+	wrapMatrixSum.innerHTML += `Сумма половины матрицы без главной диагонали снизу слева: ${sum}`;
 });
 myBtns[5].addEventListener('click', function () {
 	wrapMatrixSum.innerHTML = '';
@@ -118,7 +118,7 @@ myBtns[5].addEventListener('click', function () {
 		}
 	}
 	console.log(matrix);
-	wrapMatrixSum.innerHTML += `Сумма главной диагонали: ${sum}`;
+	wrapMatrixSum.innerHTML += `Сумма половины матрицы с главной диагональю снизу слева: ${sum}`;
 });
 myBtns[6].addEventListener('click', function () {
 	wrapMatrixSum.innerHTML = '';
@@ -131,7 +131,7 @@ myBtns[6].addEventListener('click', function () {
 		}
 	}
 	console.log(matrix);
-	wrapMatrixSum.innerHTML += `Сумма главной диагонали: ${sum}`;
+	wrapMatrixSum.innerHTML += `Сумма половины матрицы без побочной диагонали сверху слева: ${sum}`;
 });
 myBtns[7].addEventListener('click', function () {
 	wrapMatrixSum.innerHTML = '';
@@ -144,7 +144,7 @@ myBtns[7].addEventListener('click', function () {
 		}
 	}
 	console.log(matrix);
-	wrapMatrixSum.innerHTML += `Сумма главной диагонали: ${sum}`;
+	wrapMatrixSum.innerHTML += `Сумма половины матрицы с побочной диагональю сверху слева: ${sum}`;
 });
 myBtns[8].addEventListener('click', function () {
 	wrapMatrixSum.innerHTML = '';
@@ -157,7 +157,7 @@ myBtns[8].addEventListener('click', function () {
 		}
 	}
 	console.log(matrix);
-	wrapMatrixSum.innerHTML += `Сумма главной диагонали: ${sum}`;
+	wrapMatrixSum.innerHTML += `Сумма половины матрицы без побочной диагонали внизу справа: ${sum}`;
 });
 myBtns[9].addEventListener('click', function () {
 	wrapMatrixSum.innerHTML = '';
@@ -170,7 +170,7 @@ myBtns[9].addEventListener('click', function () {
 		}
 	}
 	console.log(matrix);
-	wrapMatrixSum.innerHTML += `Сумма главной диагонали: ${sum}`;
+	wrapMatrixSum.innerHTML += `Сумма срока: ${sum}`;
 });
 myBtns[10].addEventListener('click', function () {
 	wrapMatrixSum.innerHTML = '';
@@ -183,5 +183,5 @@ myBtns[10].addEventListener('click', function () {
 		}
 	}
 	console.log(matrix);
-	wrapMatrixSum.innerHTML += `Сумма главной диагонали: ${sum}`;
+	wrapMatrixSum.innerHTML += `Сумма столбца: ${sum}`;
 });

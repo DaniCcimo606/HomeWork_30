@@ -4,19 +4,56 @@ body {
   justify-content: center;
   margin-top: 100px;
 }
+body .display {
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
 body .wrapper {
   display: flex;
   padding: 20px;
   border: 6px solid lightblue;
   border-radius: 0 0 50px 0;
   background-color: lightpink;
+  transition: 0.2s;
+}
+body .wrapper .wrap-title .wrap-title-content {
+  text-align: center;
+  font-size: 23px;
+}
+body .wrapper .wrap-length {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+body .wrapper .wrap-length .wrap-input-length-content {
+  padding: 5px 80px 5px 10px;
+  border: 3px solid darkviolet;
+  background-color: lightblue;
+  border-radius: 10px;
+  font-size: 18px;
+}
+body .wrapper .wrap-length .wrap-btn-length-content {
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 2px 5px;
+  border: 3px solid darkviolet;
+  border-radius: 5px;
+  font-size: 17px;
+  background-color: lightblue;
+  transition: 0.3s;
+  cursor: pointer;
+}
+body .wrapper .wrap-length .wrap-btn-length-content:hover {
+  border-color: black;
+  color: white;
+  background-color: darkviolet;
 }
 body .wrapper .wrap-btns {
   display: flex;
   flex-direction: column;
 }
 body .wrapper .wrap-btns .btn {
-  position: relative;
   margin: 5px 0;
   padding: 10px;
   border: 3px solid darkviolet;
